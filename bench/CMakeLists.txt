@@ -1,0 +1,2 @@
+add_executable(latency_bench latency_bench.cpp)
+target_link_libraries(latency_bench PRIVATE orderbook benchmark::benchmark_main)
